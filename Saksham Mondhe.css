@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+```css
+
+/* Basic settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1020;
+    color: #f1f1f1;
+    line-height: 1.7;
+}
+
+section {
+    padding: 75px 10%;
+}
+
+section h2 {
+    text-align: center;
+    color: #a78bfa;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #111a32;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.apurv {
+    color: #a78bfa;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #a78bfa;
+}
+
+/* Home Section */
+.harsh {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.pranali {
+    max-width: 650px;
+}
+
+.pranali h1 {
+    color: #c4b5fd;
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+
+.pranali h1 span {
+    color: #a78bfa;
+}
+
+.pranali h3 {
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+.pranali p {
+    color: #c5c9d6;
+    margin-bottom: 25px;
+}
+
+.supriya img {
+    width: 260px;
+    height: 260px;
+    border: 8px solid #8b5cf6;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #202b48;
+}
+
+/* Home Button */
+.mayank {
+    display: inline-block;
+    padding: 11px 24px;
+    background-color: #8000bf;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.mayank:hover {
+    background-color: #6
